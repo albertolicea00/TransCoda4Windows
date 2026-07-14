@@ -1,0 +1,51 @@
+# ------------------------------------------------------------------
+# Windows noise
+# ------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS noise (for contributors browsing from a Mac)
+.DS_Store
+
+# ------------------------------------------------------------------
+# .NET / WinUI 3 / Visual Studio
+# ------------------------------------------------------------------
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.binlog
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+BundleArtifacts/
+AppPackages/
+
+# ------------------------------------------------------------------
+# IDEs and editors
+# ------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ------------------------------------------------------------------
+# FFmpeg binaries (vendored locally, never committed)
+# ------------------------------------------------------------------
+**/ffmpeg.exe
+**/ffprobe.exe
+ffmpeg/
+
+# ------------------------------------------------------------------
+# Logs, temp and local-only files
+# ------------------------------------------------------------------
+*.log
+*.tmp
+.env
+.env.*
