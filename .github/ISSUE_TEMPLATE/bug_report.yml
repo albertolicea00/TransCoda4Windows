@@ -1,0 +1,60 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly.
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU (for hardware encoding issues)
+      placeholder: "NVIDIA RTX 4070 / Intel UHD 770 / AMD RX 7800"
+  - type: input
+    id: ffmpeg-version
+    attributes:
+      label: FFmpeg version
+      description: Output of `ffmpeg -version` (first line is enough).
+      placeholder: "ffmpeg version 7.1"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add file X (H.264 MP4, 1080p)
+        2. Set output to MKV / HEVC / CRF 23
+        3. Press Convert
+    validations:
+      required: true
+  - type: textarea
+    id: source-file
+    attributes:
+      label: Source file details
+      description: If possible, paste `ffprobe <file>` output or describe the file (container, codecs, resolution, duration).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message / logs
+      description: The error shown in the app, or any relevant output.
+      render: text
