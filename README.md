@@ -4,7 +4,6 @@
 [![Windows](https://img.shields.io/badge/Windows-11%20%7C%2010%2019041+-0078D4?logo=windows)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-FE5196?logo=conventionalcommits)](https://www.conventionalcommits.org)
 
 **Fast, tiny, fully native media conversion for Windows 11.** ⚡
 
