@@ -1,4 +1,4 @@
-# TransCoda for Windows 🎬
+# 🏭 TransCoda for Windows 🎬
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![Windows](https://img.shields.io/badge/Windows-11%20%7C%2010%2019041+-0078D4?logo=windows)](https://www.microsoft.com/windows)
